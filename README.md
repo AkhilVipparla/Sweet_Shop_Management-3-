@@ -1,4 +1,4 @@
-<img width="1894" height="942" alt="Screenshot 2025-12-14 190403" src="https://github.com/user-attachments/assets/8a02da16-bca0-4dda-b3d5-6021ea66dd4b" />🤖 My AI Usage
+🤖 My AI Usage
 AI Tools Used
 
 ChatGPT (OpenAI)

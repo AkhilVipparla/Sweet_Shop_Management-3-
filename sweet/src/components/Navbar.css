@@ -1,0 +1,73 @@
+/* NAVBAR WRAPPER */
+/* NAVBAR (TRANSLUCENT) */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+
+  background: rgba(255, 255, 255, 0.65); /* 👈 translucency */
+  backdrop-filter: blur(14px);           /* 👈 glass effect */
+  -webkit-backdrop-filter: blur(14px);
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* INNER CONTENT */
+.navbar-inner {
+  width: 100%;
+  max-width: 100%;    
+        /* ❗ REMOVE BOXING */
+  padding: 16px 96px;       /* SAME AS HOME PAGE */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  margin-left: auto;   /* 👈 THIS IS THE KEY LINE */
+}
+
+/* LEFT */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-box {
+  width: 36px;
+  height: 36px;
+  background: #f46b5b;
+  color: white;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #3b241b;
+}
+
+/* SIGN IN */
+.signin-btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  position: absolute;
+  right: 100px;
+  border: none;
+  background: linear-gradient(90deg, #f46b5b, #f26a7a);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
